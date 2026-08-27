@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shruti Murali — AI & Analytics Portfolio</title>
+<meta name="description" content="AI & Analytics portfolio of Shruti Murali — from signal to trust.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ HERO ============ -->
+<section class="section hero">
+  <div class="hero-grid">
+    <div class="hero-text">
+      <div class="eyebrow">| SHRUTI MURALI |</div>
+      <h1 class="hero-name">AI &amp; Analytics<br>Builder, from <em>signal</em><br>to <em>trust</em>.</h1>
+      <p class="hero-sub">MS Business Analytics candidate at Columbia University. I build AI
+        systems that turn messy real-world data into decisions people can actually rely on —
+        and then I hold those systems to account.</p>
+      <div class="hero-btn-row">
+        <a href="#projects-section" class="btn btn-primary">View Projects ↓</a>
+        <a href="https://github.com/SHRUTI0907" target="_blank" rel="noopener" class="btn">GitHub</a>
+        <a href="https://www.linkedin.com/in/mshruti/" target="_blank" rel="noopener" class="btn">LinkedIn</a>
+        <a href="mailto:sm5941@columbia.edu" class="btn">Email Me</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <div class="profile-frame">
+        <img src="assets/profile.jpg" alt="Shruti Murali" width="480" height="600">
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ============ ABOUT ============ -->
+<section class="section about">
+  <div class="eyebrow">| ABOUT ME |</div>
+  <p class="about-lead">I didn't set out to build four separate projects. I set out to
+    answer one question, over and over: can I trust what this data — or this AI — is
+    telling me?</p>
+  <p class="about-body">That question is why my portfolio reads like a path rather than a
+    pile of projects. It starts with <b>signal</b> — pulling structure out of 250,000
+    unstructured customer complaints. It moves to <b>risk</b> — using that same skill to
+    catch corporate distress before it becomes a headline. Then <b>access</b> — building an
+    agent that lets anyone ask a database a question in plain English. And finally
+    <b>trust</b> — because once you've shipped a few AI agents, the only question that
+    matters is whether you can prove they're working.</p>
+  <p class="about-body">I'm currently pursuing my Master's in Business Analytics at
+    Columbia University, with hands-on experience building Monte Carlo risk engines,
+    forecasting pipelines, and LLM-grounded decision tools for real companies. I care less
+    about using AI because it's trendy, and more about using it where it can be measured,
+    explained, and trusted.</p>
+</section>
+
+<hr class="divider">
+
+<!-- ============ PROJECTS ============ -->
+<section class="section projects" id="projects-section">
+  <div class="eyebrow">| SELECTED PROJECTS |</div>
+  <h2>From signal to trust</h2>
+
+  <article class="proj-card">
+    <div class="proj-tag">01 · SIGNAL</div>
+    <h3 class="proj-title">Financial Services Complaint Analytics</h3>
+    <div class="proj-subtitle">AI Decision Support Platform</div>
+    <p class="proj-story">It started with a simple question: buried in 250K messy customer
+      complaints, what is actually going wrong? This project taught me how to turn noisy,
+      unstructured text into decisions a business can act on.</p>
+    <ul class="proj-bullets">
+      <li>Analyzed 250K CFPB complaints across 1,383 companies, 12 products &amp; 87 issues</li>
+      <li>Built NLP/GenAI features from 5,343 narratives using NMF topic modeling + grounded RAG</li>
+      <li>Shipped a 10-class routing model achieving 0.729 macro F1 for automated complaint triage</li>
+    </ul>
+    <div class="chips">
+      <span class="chip">Python</span><span class="chip">Pandas</span><span class="chip">Streamlit</span>
+      <span class="chip">NLP</span><span class="chip">RAG</span><span class="chip">NMF Topic Modeling</span>
+    </div>
+    <div class="proj-btn-row">
+      <a class="btn btn-primary" href="https://financial-services-complaint-analytics-ai-6cxsauwxgm6upvikhdkd.streamlit.app/" target="_blank" rel="noopener">▶ Live Demo</a>
+      <a class="btn" href="https://github.com/SHRUTI0907/financial-services-complaint-analytics-ai" target="_blank" rel="noopener">GitHub Repo</a>
+    </div>
+  </article>
+
+  <article class="proj-card">
+    <div class="proj-tag">02 · RISK</div>
+    <h3 class="proj-title">SignalGuard AI</h3>
+    <div class="proj-subtitle">Corporate Distress &amp; Early-Warning Intelligence</div>
+    <p class="proj-story">Once I could extract signal from messy data, I wanted to put that
+      skill to work where the stakes are highest: catching financial distress before it
+      becomes a headline.</p>
+    <ul class="proj-bullets">
+      <li>Scored 5 risk dimensions + 5 trend signals on an explainable 0–100 scale</li>
+      <li>Built SEC EDGAR/XBRL pipelines for 10-K/10-Q data across quarterly &amp; annual filings</li>
+      <li>Grounded an LLM with top-5 TF-IDF SEC excerpts for evidence-backed risk briefs</li>
+      <li>Stress-tested 4 financial drivers, lifting benchmark risk scores 23 → 43 (+87%) under adverse conditions</li>
+    </ul>
+    <div class="chips">
+      <span class="chip">Python</span><span class="chip">Streamlit</span><span class="chip">SEC EDGAR/XBRL</span>
+      <span class="chip">TF-IDF</span><span class="chip">LLM Grounding</span>
+    </div>
+    <div class="proj-btn-row">
+      <a class="btn btn-primary" href="https://signalguard-ai.streamlit.app/" target="_blank" rel="noopener">▶ Live Demo</a>
+      <a class="btn" href="https://github.com/SHRUTI0907/Signal-Guard-AI" target="_blank" rel="noopener">GitHub Repo</a>
+    </div>
+  </article>
+
+  <article class="proj-card">
+    <div class="proj-tag">03 · ACCESS</div>
+    <h3 class="proj-title">Assay</h3>
+    <div class="proj-subtitle">Text-to-SQL Analytics Agent with an Evaluation Harness</div>
+    <p class="proj-story">Good analysis shouldn't require knowing SQL. Assay is my answer:
+      an agent that lets anyone ask a question in plain English and get a trustworthy
+      answer back from a database — with a harness that keeps it honest.</p>
+    <ul class="proj-bullets">
+      <li>Built a natural-language-to-SQL agent for ad-hoc business questions</li>
+      <li>Designed an evaluation harness to score query accuracy and catch hallucinated SQL</li>
+      <li>Focused on making analytics self-serve without sacrificing correctness</li>
+    </ul>
+    <div class="chips">
+      <span class="chip">Python</span><span class="chip">LLM Agents</span><span class="chip">SQL</span>
+      <span class="chip">Streamlit</span><span class="chip">Evaluation Harness</span>
+    </div>
+    <div class="proj-btn-row">
+      <a class="btn btn-primary" href="https://text-to-sql-assay.streamlit.app/" target="_blank" rel="noopener">▶ Live Demo</a>
+      <a class="btn" href="https://github.com/SHRUTI0907/Assay" target="_blank" rel="noopener">GitHub Repo</a>
+    </div>
+  </article>
+
+  <article class="proj-card">
+    <div class="proj-tag">04 · TRUST</div>
+    <h3 class="proj-title">Groundglass</h3>
+    <div class="proj-subtitle">AI Evaluation &amp; Observability Dashboard</div>
+    <p class="proj-story">The more AI agents I built, the more I needed to answer one
+      question: how do I actually know they're working? Groundglass is the observability
+      layer — turning AI evaluation from a guess into a measurable practice.</p>
+    <ul class="proj-bullets">
+      <li>Built a dashboard to track, score, and compare AI agent outputs over time</li>
+      <li>Surfaced evaluation metrics and failure patterns for faster debugging</li>
+      <li>Designed for teams shipping LLM features who need to trust what they ship</li>
+    </ul>
+    <div class="chips">
+      <span class="chip">Python</span><span class="chip">Streamlit</span><span class="chip">AI Evaluation</span>
+      <span class="chip">Observability</span>
+    </div>
+    <div class="proj-btn-row">
+      <a class="btn btn-primary" href="https://groundglass-ai-evaluation.streamlit.app/" target="_blank" rel="noopener">▶ Live Demo</a>
+      <a class="btn" href="https://github.com/SHRUTI0907/groundglass-ai-evaluation" target="_blank" rel="noopener">GitHub Repo</a>
+    </div>
+  </article>
+</section>
+
+<hr class="divider">
+
+<!-- ============ SKILLS ============ -->
+<section class="section skills">
+  <div class="eyebrow">| SKILLS |</div>
+  <h2>Toolkit</h2>
+
+  <div class="skill-group-title">Programming &amp; Query Languages</div>
+  <div class="chips">
+    <span class="chip">Python</span><span class="chip">SQL</span><span class="chip">R</span>
+    <span class="chip">Pandas</span><span class="chip">NumPy</span><span class="chip">scikit-learn</span>
+  </div>
+
+  <div class="skill-group-title">AI / ML</div>
+  <div class="chips">
+    <span class="chip">LLM Frameworks</span><span class="chip">NLP</span><span class="chip">RAG</span>
+    <span class="chip">Generative AI</span><span class="chip">Prompt Engineering</span><span class="chip">Predictive Modeling</span>
+  </div>
+
+  <div class="skill-group-title">Data Engineering</div>
+  <div class="chips">
+    <span class="chip">ETL Pipelines</span><span class="chip">DuckDB</span><span class="chip">PostgreSQL</span>
+    <span class="chip">Data Cleaning &amp; Validation</span>
+  </div>
+
+  <div class="skill-group-title">Risk &amp; Decision Modeling</div>
+  <div class="chips">
+    <span class="chip">Value at Risk (VaR)</span><span class="chip">Monte Carlo Simulation</span>
+    <span class="chip">Time-Series Forecasting</span><span class="chip">Scenario Analysis</span>
+  </div>
+
+  <div class="skill-group-title">Visualization &amp; BI</div>
+  <div class="chips">
+    <span class="chip">Tableau</span><span class="chip">Power BI</span><span class="chip">Plotly Dash</span>
+    <span class="chip">Streamlit</span>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="section experience">
+  <div class="eyebrow">| EXPERIENCE |</div>
+  <h2>Where I've worked</h2>
+
+  <div class="exp-row">
+    <div><b>Columbia Business School</b><br><span class="exp-role">Research Assistant II</span></div>
+    <div class="exp-date">Jun 2026 – Aug 2026</div>
+  </div>
+  <div class="exp-row">
+    <div><b>LotLine, Inc.</b><br><span class="exp-role">Student BA Consultant — Capstone (NDA)</span></div>
+    <div class="exp-date">Jan 2026 – May 2026</div>
+  </div>
+  <div class="exp-row">
+    <div><b>Apex CoVantage</b><br><span class="exp-role">Data Analyst Intern · Achiever of the Month</span></div>
+    <div class="exp-date">Feb 2025 – Apr 2025</div>
+  </div>
+</section>
+
+<hr class="divider">
+
+<!-- ============ CONTACT / FOOTER ============ -->
+<section class="section contact">
+  <div class="eyebrow center">| GET IN TOUCH |</div>
+  <h2 class="center">Let's build something trustworthy.</h2>
+  <div class="contact-btn-row">
+    <a class="btn" href="mailto:sm5941@columbia.edu">✉ sm5941@columbia.edu</a>
+    <a class="btn" href="https://github.com/SHRUTI0907" target="_blank" rel="noopener">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/mshruti/" target="_blank" rel="noopener">LinkedIn</a>
+  </div>
+  <div class="footer-box">New York, USA · (646) 886-4025<br>© 2026 Shruti Murali</div>
+</section>
+
+</body>
+</html>
